@@ -1,0 +1,9 @@
+{
+	"name": "ios-t",
+	"version": "0.1.0",
+	"dependencies": {
+		"autobahn": "19.*",
+		"mysql":"2.18.1",
+		"@elastic/elasticsearch":"7.6.1"		
+	}
+}
