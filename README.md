@@ -1,4 +1,12 @@
 # elasticsearch-crossbar
+**Edit elasticsearch.yml file to permit remote access from outside and add this lines at the end of the file:
+************************
+transport.host: localhost 
+transport.tcp.port: 9300 
+http.port: 9200
+network.host: 0.0.0.0
+***********************
+
 1 - build a image with using of DockerFile:
 sudo docker build . -t iot_container
 2- launch the crossbar container:
