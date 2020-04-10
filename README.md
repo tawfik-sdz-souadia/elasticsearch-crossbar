@@ -1,5 +1,5 @@
 # elasticsearch-crossbar
-**Edit elasticsearch.yml file to permit remote access from outside and add this lines at the end of the file:
+Edit elasticsearch.yml file to permit remote access from outside and add this lines at the end of the file:
 ************************
 transport.host: localhost 
 transport.tcp.port: 9300 
